@@ -17,8 +17,7 @@ from utils.load_embeddings import load_word_vectors
 # PARAMETERS
 ########################################################
 
-# EMBEDDINGS = "../embeddings/glove.twitter.27B.50d.txt"
-EMBEDDINGS = "embeddings/glove.6B.50d.txt"
+EMBEDDINGS = "../embeddings/glove.twitter.27B.50d.txt"
 EMB_DIM = 50
 BATCH_SIZE = 128
 EPOCHS = 50
