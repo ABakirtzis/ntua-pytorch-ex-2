@@ -1,38 +1,28 @@
 ### Overview
-This is you first assignment for familiarising yourself with PyTorch.
+This is you second assignment for familiarising yourself with PyTorch.
 
-You have to complete the missing parts in the code, with the goal of training
-a baseline RNN model for sentiment classification in Twitter messages.
-The functions for loading the raw data (`utils/load_data.py`)
-and the pretrained word embeddings (`utils/load_embeddings.py`)
-are given to you.
+In this repo you will find the solution to your first assignment.
+I suggest that you study the code carefully and take notice
+of the things that you did differently.
+The primary goal of this assignment is to implement a simple
+self-attention mechanism.
 
-### Key points
-The key points of the first assignment are:
- - Utilize the dataloading abstractions of PyTorch,
-    namely [torch.utils.data.Dataset](http://pytorch.org/docs/master/data.html#torch.utils.data.Dataset)
-    and [torch.utils.data.DataLoader](http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader)
- - Initialize the embedding layer of your model with pretrained word embeddings.
- I recommend using [Glove's 50 dimensional vectors](http://nlp.stanford.edu/data/glove.twitter.27B.zip) ,
- as the performance of the model is irrelevant and using low-dimensional embeddings will speed things up.
- - Implement a baseline RNN model. Than means using the RNNs output from the last timestep
- as feature representation of the input (no attention!).
- Remember, you have to account for the zero-padded timesteps!
+You will find the reference implementation in this paper:
+http://www.aclweb.org/anthology/S17-2126.
 
-### Implementation details
 
-The training pipeline (root) is in `train.py`.
-The classes for the model definition and dataloading are defined here:
- - `modules/dataloaders.py`
- - `modules/models.py`
+I will write an in depth readme soon.
 
-but you have to implement the necessary methods.
+<!-- ### Key points -->
+<!-- The key points of the first assignment are: -->
+ <!-- - 1 -->
+ <!-- - 2 -->
+
+<!-- ### Implementation details -->
+<!-- ... -->
 
 
 
-##### Helpful links
- - http://pytorch.org/tutorials/beginner/data_loading_tutorial.html
- - https://www.sanyamkapoor.com/machine-learning/pytorch-data-loaders/
- - https://github.com/hunkim/PyTorchZeroToAll
- - https://www.youtube.com/playlist?list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&disable_polymer=true
+<!-- ##### Helpful links -->
+
 
